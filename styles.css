@@ -188,7 +188,6 @@ button {
     width: 100%;
   }
   #histories{
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   .card {
@@ -198,7 +197,6 @@ button {
 
 @media only screen and (max-width: 991px){
   #histories{
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 }

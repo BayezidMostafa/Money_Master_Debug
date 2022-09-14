@@ -58,7 +58,7 @@ const validate = (key) => {
   if (key === questionText[userText.length - 1]) {
     return true;
   }
-  return false;
+  errorCount++;
 };
 
 // FINISHED TYPING
