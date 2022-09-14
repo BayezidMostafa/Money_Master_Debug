@@ -25,6 +25,7 @@
 
 <body>
     <header>
+        <h1 class="text-center mt-4 text-light fw-bold display-4">BLOG: Q&A SECTION</h1>
         <section class="container">
             <!-- Card 1 -->
             <div class="card text-bg-dark mb-3 text-center my-5">
@@ -42,7 +43,7 @@
                             data in local storage, that will not go anywhere even after a reload or closing of the
                             tab.<br>The storage capacity of local storage is 5/10MB.<br>We only can delete the local
                             storage data using Javascript or Manually. Because all the existing data will remain after
-                            reloading or closing the tab.<br>The client only can read the local storage data.</p>
+                            reloading or closing the tab.<br>The client can read the local storage data.</p>
                         <p class="card-text text-start ms-2 border rounded p-2 border-primary w-100">If we set data in session
                             storage, that will be gone after a reload or closing of the tab.<br>The storage capacity of
                             session storage is 5MB.<br>We don't have to delete session storage data. Because Those
@@ -66,10 +67,9 @@
                         <p class="card-text text-start me-2 border rounded border-primary p-2 w-100">The Global scope is a
                             scope that is visible from all other
                             scopes. A variable that is declared outside of a function is considered as a Global scope
-                            variable.<br>That means, that variable can be accessed from anywhere in a javascript
+                            variable. This variable can be accessed from anywhere in a javascript
                             program.</p>
-                        <p class="card-text text-start ms-2 border rounded border-primary p-2 w-100">The scope, that is
-                            created with a pair of curly braces. It could be in a function, condition or a loop. When a variable declare in it that will be considered as a block scope variable. We can access the block scope variable inside the block only</p>
+                        <p class="card-text text-start ms-2 border rounded border-primary p-2 w-100">The scope is created with a pair of curly braces called block scope. It could be in a function, condition, or loop. When a variable declares in it, it will be considered as a block scope variable. We can access the block scope variable inside the block only</p>
                     </div>
                 </div>
             </div>
@@ -79,6 +79,14 @@
                 <div class="card-body">
                     <h5 class="card-title fs-3 text-primary text-start">How does the event loop work in JavaScript?</h5>
                     <p class="text-start border border-primary rounded p-2">The event loop is a continuously running process that monitors the callback queue and the call stack as well. First of all, It will check the call stack. If the call stack is empty then it will call the first event from the queue and push it to the call stack. If the call-back queue is empty, nothing will gonna happen.</p>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card text-bg-dark mb-3 text-center my-5">
+                <div class="card-header fs-3 text-warning fw-bold">QUESTION #4</div>
+                <div class="card-body">
+                    <h5 class="card-title fs-3 text-primary text-start">The ways we can get undefined</h5>
+                    <p class="text-start border border-primary rounded p-2">8 ways we can get undefined: <br>1. If we called a variable, which is not initialized yet.<br>2. If a function doesn't have any return.<br>3. Parameter that is not passed.<br>4. If there is no statement on the right side of the return.<br>5. Try to get a property that doesn't exist in an object.<br>6. Try to access an array element that is outside of the index range.<br>7. Delete an array element using delete.<br>8. Set a value directly to undefined.</p>
                 </div>
             </div>
         </section>
