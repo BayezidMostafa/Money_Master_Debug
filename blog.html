@@ -26,18 +26,50 @@
 <body>
     <header>
         <section class="container">
+            <!-- Card 1 -->
             <div class="card text-bg-dark mb-3 text-center my-5">
                 <div class="card-header fs-3 text-warning fw-bold">QUESTION #1</div>
                 <div class="card-body">
-                    <h5 class="card-title fs-3 text-primary text-start">What is the difference between local storage and session storage?
+                    <h5 class="card-title fs-3 text-primary text-start">What is the difference between local storage and
+                        session storage?
                     </h5>
                     <div class="d-flex justify-content-around fw-bold fs-5">
                         <p>Local Storage</p>
                         <p>Session Storage</p>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <p style="max-height: 10rem;" class="card-text text-start me-2 border rounded p-2 border-primary">If we set any kind of data in local storage, that will not go anywhere even after a reload or closing of the tab.<br>The storage capacity of local storage is 5/10MB.<br>We only can delete the local storage data using Javascript or Manually. Because all the existing data will remain after reloading or closing the tab.<br>The client only can read the local storage data.</p>
-                        <p style="max-height: 10rem;" class="card-text text-start ms-2 border rounded p-2 border-primary">If we set data in session storage, that will be gone after a reload or closing of the tab.<br>The storage capacity of session storage is 5MB.<br>We don't have to delete session storage data. Because Those existing data will disappear automatically after a reload or closing of the tab.<br>The client can not read session storage data.</p>
+                        <p class="card-text text-start me-2 border rounded p-2 border-primary w-100">If we set any kind of
+                            data in local storage, that will not go anywhere even after a reload or closing of the
+                            tab.<br>The storage capacity of local storage is 5/10MB.<br>We only can delete the local
+                            storage data using Javascript or Manually. Because all the existing data will remain after
+                            reloading or closing the tab.<br>The client only can read the local storage data.</p>
+                        <p class="card-text text-start ms-2 border rounded p-2 border-primary w-100">If we set data in session
+                            storage, that will be gone after a reload or closing of the tab.<br>The storage capacity of
+                            session storage is 5MB.<br>We don't have to delete session storage data. Because Those
+                            existing data will disappear automatically after a reload or closing of the tab.<br>The
+                            client can not read session storage data.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card text-bg-dark mb-3 text-center my-5">
+                <div class="card-header fs-3 text-warning fw-bold">QUESTION #2</div>
+                <div class="card-body">
+                    <h5 class="card-title fs-3 text-primary text-start">What is the difference between Global scope and
+                        Block scope?
+                    </h5>
+                    <div class="d-flex justify-content-around fw-bold fs-5">
+                        <p>Global Scope</p>
+                        <p>Block Scope</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="card-text text-start me-2 border rounded border-primary p-2 w-100">The Global scope is a
+                            scope that is visible from all other
+                            scopes. A variable that is declared outside of a function is considered as a Global scope
+                            variable.<br>That means, that variable can be accessed from anywhere in a javascript
+                            program.</p>
+                        <p class="card-text text-start ms-2 border rounded border-primary p-2 w-100">The scope, that is
+                            created with a pair of curly braces. It could be in a function, condition or a loop. When a variable declare in it that will be considered as a block scope variable. We can access the block scope variable inside the block only</p>
                     </div>
                 </div>
             </div>
